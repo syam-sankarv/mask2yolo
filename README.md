@@ -14,7 +14,7 @@ The script runs **directly from the terminal** and **prompts you for the input/o
 
 ---
 
-## How It Works
+## Working
 
 1. Reads **binary mask images** from the folder you specify.
 2. Applies **thresholding** to ensure masks are strictly black and white.
@@ -24,31 +24,6 @@ The script runs **directly from the terminal** and **prompts you for the input/o
 6. Saves the segmentation polygons in `.txt` files that YOLOv8 can use directly.
 
 ---
-
-## 📂 Example Folder Structure
-
-Before running the script, your dataset might look like this:
-
-dataset/
-│
-├── masks/ # Input folder with binary mask PNGs
-│ ├── image1.png
-│ ├── image2.png
-│
-└── labels/ # Output folder (created automatically)
-
-After running the script:
-
-dataset/
-│
-├── masks/
-│ ├── image1.png
-│ ├── image2.png
-│
-├── labels/
-│ ├── image1.txt
-│ ├── image2.txt
-
 
 ## 📜 YOLOv8 Segmentation Label Format
 
