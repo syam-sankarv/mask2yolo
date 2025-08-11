@@ -59,12 +59,16 @@ Output folder path (where YOLO .txt label files will be saved)
 
 Class ID (integer, e.g., 0)
 
+---
+
 Example interaction:
 
  Mask to YOLOv8 Segmentation Converter 
  
 Enter path to the folder containing mask images: \dataset\masks
+
 Enter path to save YOLOv8 label files: \dataset\labels
+
 Enter class ID (integer, e.g., 0): 0
 Processed: image1
 Processed: image2
