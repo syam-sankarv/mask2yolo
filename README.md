@@ -7,7 +7,6 @@ The script runs **directly from the terminal** and **prompts you for the input/o
 
 ## Features
 
-- **CLI** – No need to edit the script, just run it and provide folder paths when asked.
 - **YOLOv8 Segmentation Ready** – Outputs `.txt` label files that match Ultralytics YOLOv8 segmentation format.
 - **Automatic Coordinate Normalization** – Converts polygon coordinates to a normalized 0–1 range.
 - **Batch Processing** – Processes all `.png` images in the input folder automatically.
