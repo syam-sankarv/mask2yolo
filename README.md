@@ -1,4 +1,4 @@
-**Mask to YOLOv8 Segmentation Label Converter**
+## **Mask to YOLOv8 Segmentation Label Converter**
 
 This repository provides a **Python command-line tool** for converting **binary mask images** into the **YOLOv8 segmentation format**.  
 The script runs **directly from the terminal** and **prompts you for the input/output folders and class ID**.
@@ -25,7 +25,7 @@ The script runs **directly from the terminal** and **prompts you for the input/o
 
 ---
 
-## 📜 YOLOv8 Segmentation Label Format
+## YOLOv8 Segmentation Label Format
 
 YOLOv8 expects segmentation annotations in the format:
 
@@ -38,7 +38,7 @@ Where:
 Example:
 0 0.123456 0.234567 0.345678 0.456789
 
-## 🚀 Installation & Usage
+## Installation & Usage
 
 ### 1️⃣ Install Python and OpenCV
 Make sure you have **Python 3.x** installed, then install OpenCV:
